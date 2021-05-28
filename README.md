@@ -57,6 +57,7 @@ Note that it's unlikely all the fields `{ "ingredient_id": 27, "ingredient_name"
 Before writing any code, write out all desired tables in the data model and determine the relationships between tables.
 
 **Try to keep your design to FOUR tables**. With three tables it will be hard to meet all requirements, and more than 5 is likely overkill.
+      tableName: 'knex_migrations'
 
 #### Project Scaffolding
 
