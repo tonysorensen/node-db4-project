@@ -1,7 +1,7 @@
-const db = require('../../data/db-config.js')
+const db = require('../../data/db-config.js');
 
-function getRecipes(){
-    return db('recipes')
+const find=()=>{
+    return db('recipes');
 }
 
-module.exports = getRecipes
+module.exports = {find};
